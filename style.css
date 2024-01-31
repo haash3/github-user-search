@@ -40,6 +40,7 @@ body {
 }
 .user-form input::marker{
     color: #24292e;
+
 }
 
 .card{
@@ -101,3 +102,24 @@ body {
     font-weight: 600;
     color: 	#5093dfdb;
 }
+
+
+/* media queries */
+@media(max-width: 500px){
+    .card{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+    .user-name{
+        text-align: center;
+    }
+     #repos{
+        margin-top: 20px;
+        text-align: center;
+     }
+     #main{
+        margin: 2rem;
+     }
+    }
